@@ -41,16 +41,18 @@ ol, ul {
 
 h2 {
     font-family: 'Open Sans Condensed', sans-serif, Helvetica, sans-serif;
+    font-size: 1.5em;
     padding-bottom: 5px;
     border-bottom: 4px solid #FCE7DD;
 }
 
 h3 {
-    font-family: 'Merriweather', Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', sans-serif, Helvetica, sans-serif;
     margin-top: 5px;
 }
-
+#name {
+  font-weight: bolder;
+}
 #wrapper {
     display: table;
     position: absolute;
