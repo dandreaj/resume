@@ -9,36 +9,44 @@
     <!-- Latest compiled and minified CSS -->
      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <link rel="icon" type="image/png" href="images/Anchor 3 Icon - iconmonstr.html"/>
+    <link rel="icon" type="image/png" href="iconmonstr-glasses-14-icon-256.png"/>
 </head>
 <body>
   <div class="jumbotron">
     <div class="container">
-      <div id="welcomeText">Howdy</div><h2>My name is <span id="name">Jessica D'Andrea</span></h2>
-      <h3>Financial Analyst | Front-End Developer | Lover of all things simple</h3>
-      <button class="btn btn default" id="expand_bio"><span class="caret"></span></button>
-      <div id="bio-details">
-        <hr>
-        <p>
-          test
-        </p>
-        </hr>
+      <div id="details">
+        <div id="welcomeText">Hello.</div><span>My name is Jessica D'Andrea.</span>
+      </div>
+      <div id="moreDetails">
+        <p>please stay tuned...</p>
+        <button type ="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class = "caret"></span></button>
       </div>
     </div>
-
   </div>
-  </div>
+  <footer>
+    <a href="https://www.linkedin.com/in/jessica-d-andrea-cpa-177a4621" target="_blank">linkedin</a>
+    <a href="mailto:jdandrea11@gmail.com">email me</a>
+  </footer>
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="bootstrap.min.js"></script>
-<script src="resume.js"></script></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-71158111-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="resume.js"></script>
 </body>
 </html>
