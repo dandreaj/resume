@@ -39,7 +39,7 @@ ol, ul {
  position: absolute;
  height: 100%;
  width: 100%;
- background-color: #F7F7F7;
+ background-color: #Ffffff;
 }
 .container{
   display: table-cell;
@@ -64,7 +64,7 @@ span{
   display:flex;
   justify-content:center;
   align-items:center;
-  font-family: 'Amatic SC', cursive, Helvetica, sans-serif;
+font-family: 'Open Sans Condensed', sans-serif, Helvetica, sans-serif;
   font-size: 1.3em;
 }
 h2 {
